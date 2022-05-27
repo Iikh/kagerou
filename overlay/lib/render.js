@@ -176,7 +176,9 @@
       // history header
       $('.history', 0).classList.toggle('enabled', !data.isCurrent)
       $('.history', 0).classList.toggle('stopped', data.isActive === 'false')
-      $('#history-time').textContent = data.header.duration
+      $('#history-time').textContent = this.config.format.time_seconds
+        ? data.header.DURATION
+        : data.header.duration
       $('#history-mob').textContent = data.header.title
 
       if(!this.config.element['hide-footer'] ||

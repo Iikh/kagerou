@@ -233,7 +233,8 @@
       "numbers": "숫자 표현",
       "use_tailing_pct": "비율 값 뒤에 % 기호를 표시",
       "small_lower_numbers": "숫자값의 1000 미만을 작게 표시",
-      "number_abbreviation": "천 단위 생략 사용"
+      "number_abbreviation": "천 단위 생략 사용",
+      "time_seconds": ""
     },
     "element": {
       "narrow_nav": "상단바를 얇게"
